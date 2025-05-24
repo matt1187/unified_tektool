@@ -5,17 +5,21 @@ A heavy modififaction of tektool & tekfwtool from author "sschelle" .  It is pub
 
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
 
-- executable file for Windows 
-Win XP up to 10 works fine with GPIB adapter with installed VISA driver from Agilent or NI.
-Win 98 need msvcrt.dll 
-- executable file for linux and other system
-  [ ] i am planing.
+- Executable file for **Windows** -> [![download](https://github.com/matt1187/unified_tektool/tree/main/Windows)]
+- Win XP up to 10 works fine with GPIB adapter with installed VISA driver from Agilent or NI.
+- Win 98 need msvcrt.dll 
+- executable file for linux and other system -> not aviable yet, i'll published him, if i make one or i got executable file.
+- **Sourcefile** (written for windows system)  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
 
-# how to using
+
+
+# how to
 Unified Tektool  use auto-detection of flash type and have memory-write-protect.  (Erase, program, zero-fill works only at base address 0x1000000)
+Tektool works with command line in cmd from windows or terminal of linux.
+![faster_program, but yet too slow(without 0xFFcommando)](https://github.com/user-attachments/assets/afbe8051-3cee-4a15-90a0-46fe7c8aa6b6)
 
 - Flash identify `tektool -i -b 0x1000000 -l 0x10`
--	Flash zero fill (only  28F010 and 28F020) `tektool -z -b 0x1000000 -l 0x10`
+- Flash zero fill (only  28F010 and 28F020) `tektool -z -b 0x1000000 -l 0x10`
 - Flash erase  `tektool -e -b 0x1000000 -l 0x10`
 - Flash program `tektool -p example.bin -b  0x1000000 -l 0x180000`
 - Flash verify `tektool -v example.bin -b  0x1000000 -l 0x180000`
@@ -33,6 +37,8 @@ Unified Tektool  use auto-detection of flash type and have memory-write-protect.
  ` 0x400000`                      0xb0d0  = 28F160S5
 
 - tipp for using of 28F010/020 flash, which it is tilted again.
+Replay proccess without zerofilling, if it is not yet successful.
+(not conform with datasheet of FLASH and in future: you would get difficult with reprogramming in future. But few zerofilling & erasing cycle may help)
 
 
 
