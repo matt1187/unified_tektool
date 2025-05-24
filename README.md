@@ -2,7 +2,7 @@
 "universial Tektronix TDSxxx memory-tools "
 
 A heavy modififaction of tektool & tekfwtool from author "sschelle".  Unified tektool is capable to flashing of difference flash type (from old TDS540 to  TDS794D).
-It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant.
+It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant. Small notice: i am only autodictat, i have never learned programming on shool/university.
 
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
 
