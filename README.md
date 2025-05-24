@@ -3,6 +3,7 @@
 
 Unified tektool is a tektool & tekfwtool from author "sschelle" with heavy modififaction.
 Unified tektool is capable to flashing of difference flash type (from old TDS540 to  TDS794D).
+A disadvantage of unified tektool is low flash speed (With PCI GPIB card ~15 minute for TDS700C/D flash and up to 40 Minute for TDS500B/700A with 28F020)
 It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant. Small notice: i am only autodictat, i have never learned programming on shool/university. This is why, i have wreid coding style.
 
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
@@ -41,6 +42,9 @@ Tektool works with command line in cmd from windows or terminal of linux.
 - tipp for using of 28F010/020 flash, which it is tilted again.
 Replay proccess without zerofilling, if it is not yet successful.
 (not conform with datasheet of FLASH and in future: you would get difficult with reprogramming in future. But few zerofilling & erasing cycle may help)
+
+# to do 
+Improvement of flashing speed.
 
 # note
 It is your risk. Pleas don't  hit me, if your unit is a brick.
