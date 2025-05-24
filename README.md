@@ -9,8 +9,8 @@ It is published under GPL V2, pleas follow it and don't make it closed and/or co
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
 
 - Executable file for **Windows** -> [![download](https://github.com/matt1187/unified_tektool/tree/main/Windows)]
-- Win XP up to 10 works fine with GPIB adapter with installed VISA driver from Agilent or NI.
-- Win 98 need msvcrt.dll 
+- unified tektool works on Win XP up to 10 fine with GPIB adapter with installed VISA driver from Agilent or NI.
+- Using on Win 98 need msvcrt.dll 
 - executable file for linux and other system -> not aviable yet. I'll published him, if i make one or i got executable file.
 - **Sourcefile** (written for windows system with minGW )  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
 
