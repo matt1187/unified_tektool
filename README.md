@@ -1,7 +1,8 @@
 # Project  unified tektool
 "universial Tektronix TDSxxx memory-tools "
 
-A heavy modififaction of tektool & tekfwtool from author "sschelle" .  It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant.
+A heavy modififaction of tektool & tekfwtool from author "sschelle".  Unified tektool is capable to flashing of difference flash type (from old TDS540 to  TDS794D).
+It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant.
 
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
 
@@ -40,6 +41,7 @@ Tektool works with command line in cmd from windows or terminal of linux.
 Replay proccess without zerofilling, if it is not yet successful.
 (not conform with datasheet of FLASH and in future: you would get difficult with reprogramming in future. But few zerofilling & erasing cycle may help)
 
-
+# note
+It is your risk. Pleas don't  hit me, if your unit is a brick.
 
 	
