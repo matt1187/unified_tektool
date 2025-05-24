@@ -1,16 +1,17 @@
 # Project  unified tektool
 "universial Tektronix TDSxxx memory-tools "
 
-A heavy modififaction of tektool & tekfwtool from author "sschelle".  Unified tektool is capable to flashing of difference flash type (from old TDS540 to  TDS794D).
-It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant. Small notice: i am only autodictat, i have never learned programming on shool/university.
+Unified tektool is a tektool & tekfwtool from author "sschelle" with heavy modififaction.
+Unified tektool is capable to flashing of difference flash type (from old TDS540 to  TDS794D).
+It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant. Small notice: i am only autodictat, i have never learned programming on shool/university. This is why, i have wreid coding style.
 
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
 
 - Executable file for **Windows** -> [![download](https://github.com/matt1187/unified_tektool/tree/main/Windows)]
 - Win XP up to 10 works fine with GPIB adapter with installed VISA driver from Agilent or NI.
 - Win 98 need msvcrt.dll 
-- executable file for linux and other system -> not aviable yet, i'll published him, if i make one or i got executable file.
-- **Sourcefile** (written for windows system)  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
+- executable file for linux and other system -> not aviable yet. I'll published him, if i make one or i got executable file.
+- **Sourcefile** (written for windows system with minGW )  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
 
 
 
