@@ -2,11 +2,14 @@
 "universial Tektronix TDSxxx memory-tools "
 
 A heavy modififaction of tektool & tekfwtool from author "sschelle" .  It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant.
+
 Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!-(firmware-flash-tools-for-old-tds-series)/)
 
-# executable file for Windows 
+- executable file for Windows 
 Win XP up to 10 works fine with GPIB adapter with installed VISA driver from Agilent or NI.
 Win 98 need msvcrt.dll 
+- executable file for linux and other system
+  [ ] i am planing.
 
 # how to using
 Unified Tektool  use auto-detection of flash type and have memory-write-protect.  (Erase, program, zero-fill works only at base address 0x1000000)
