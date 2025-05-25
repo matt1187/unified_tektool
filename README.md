@@ -18,7 +18,8 @@ Full history -> (https://www.eevblog.com/forum/repair/unified-tektool-released-!
 
 # how to
 Unified Tektool  use auto-detection of flash type and have memory-write-protect.  (Erase, program, zero-fill works only at base address 0x1000000)
-Tektool works with command line in cmd from windows or terminal of linux.
+Tektool works with command line in cmd from windows or terminal of linux.  Pleas switch Protection swith to *unprotected* and power up.  Device show no life, it is OK. Don't forgot switch it back to  *protected* after successful flash/read.
+
 ![faster_program, but yet too slow(without 0xFFcommando)](https://github.com/user-attachments/assets/afbe8051-3cee-4a15-90a0-46fe7c8aa6b6)
 
 - Flash identify `tektool -i -b 0x1000000 -l 0x10`
