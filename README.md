@@ -48,7 +48,7 @@ Replay proccess without zerofilling, if it is not yet successful.
 Improvement of flashing speed.
 Only 28F016SA offer block flash -> speedup with "minor" modification on my sourcefile
 For most flash type, it need  68k Code, which it is uploaded to Tek TDSxxx and 680x0 CPU controlled flash and received data.
-GPIB is always for ~1ms after receiving not aviable. This is why, bytewise  programming algorithm can reach only at best case 4kb/s.
+GPIB is always for ~1ms after receiving not aviable. This is why, bytewise programming algorithm can reach only 4kb/s  at best case. Flash need up to 100µs time to save of bit and byte. Writespeed (Burst) is 1 MB/s (1µs cycle, too fast for flash) 
 
 # note
 It is your risk. Pleas don't  hit me, if your unit is a brick.
