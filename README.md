@@ -2,7 +2,7 @@
 "universial Tektronix TDSxxx memory-tools "
 
 Unified tektool is a tektool & tekfwtool from author "sschelle" with heavy modififaction.
-Unified tektool is capable to flashing of difference flash type (from old TDS540 to  TDS794D).
+Unified tektool is capable to flashing of difference flash type (from old TDS540 to new TDS794D).
 A disadvantage of unified tektool is low flash speed (With PCI GPIB card ~15 minute for TDS700C/D flash and up to 40 Minute for TDS500B/700A with 28F020)
 It is published under GPL V2, pleas follow it and don't make it closed and/or commercial variant. Small notice: i am only autodictat, i have never learned programming on shool/university. This is why, i have wreid coding style.
 
