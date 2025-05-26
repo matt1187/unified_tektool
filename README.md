@@ -15,6 +15,7 @@ Full history -> https://www.eevblog.com/forum/repair/unified-tektool-released-!-
 - **Sourcefile** (written for windows system with minGW )  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
 
 - source file and executable files for **MacOS** ->  https://github.com/tantratron/unified_tektool/tree/main/MacOS
+- you can use terminal window under MacOS then for example run command `./tektool -i -b 0x1000000 -l 0x10`
 
 # how to
 Unified Tektool  use auto-detection of flash type and have memory-write-protect.  (Erase, program, zero-fill works only at base address 0x1000000)
