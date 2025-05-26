@@ -51,6 +51,6 @@ For most flash type, it need  68k Code, which it is uploaded to Tek TDSxxx and 6
 GPIB is always for ~1ms after receiving not aviable. This is why, bytewise programming algorithm can reach only 4kb/s  at best case. Flash need up to 100µs time to save of bit and byte. Writespeed (Burst) is 1 MB/s (1µs cycle, too fast for flash) 
 
 # note
-It is at your own risk if your unit is a brick.
+Only use these software if you have experience with tektronix TDSxxx repair and upgrade. It is at your own risk if your oscilloscope bricks.
 
 	
