@@ -12,7 +12,7 @@ Full history -> https://www.eevblog.com/forum/repair/unified-tektool-released-!-
 - unified tektool works on Win XP up to 10 fine with GPIB adapter with installed VISA driver from Agilent or NI.
 - Using on Win 98 need msvcrt.dll
 - source file and executable files for **MacOS** ->  https://github.com/tantratron/unified_tektool/tree/main/MacOS
-- you can use terminal window under MacOS then for example run command `./tektool -i -b 0x1000000 -l 0x10`
+- you can use terminal window under MacOS then for example run command in order to find out what flash model is installed `./tektool -i -b 0x1000000 -l 0x10`
 - executable file for linux and other system -> not available yet
 - **Sourcefile** (written for windows system with minGW )  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
 
