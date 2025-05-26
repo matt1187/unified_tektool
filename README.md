@@ -1,4 +1,4 @@
-# Universal Tektronix TDSxxx memory tools "
+# Universal Tektronix TDSxxx memory tools
 
 Unified tektool is a tektool & tekfwtool from author "sschelle" with heavy modification.
 Unified tektool is capable to flashing of difference flash type (from old TDS540 to new TDS794D).
