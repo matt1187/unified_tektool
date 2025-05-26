@@ -10,12 +10,11 @@ Full history -> https://www.eevblog.com/forum/repair/unified-tektool-released-!-
 
 - Executable file for **Windows** -> [![download](https://github.com/matt1187/unified_tektool/tree/main/Windows)]
 - unified tektool works on Win XP up to 10 fine with GPIB adapter with installed VISA driver from Agilent or NI.
-- Using on Win 98 need msvcrt.dll 
-- executable file for linux and other system -> not aviable yet. I'll published him, if i make one or i got executable file.
-- **Sourcefile** (written for windows system with minGW )  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
-
+- Using on Win 98 need msvcrt.dll
 - source file and executable files for **MacOS** ->  https://github.com/tantratron/unified_tektool/tree/main/MacOS
 - you can use terminal window under MacOS then for example run command `./tektool -i -b 0x1000000 -l 0x10`
+- executable file for linux and other system -> not available yet
+- **Sourcefile** (written for windows system with minGW )  ->  [![sourcefile](https://github.com/matt1187/unified_tektool/tree/main/sourcefile)]
 
 # how to
 Unified Tektool  use auto-detection of flash type and have memory-write-protect.  (Erase, program, zero-fill works only at base address 0x1000000)
